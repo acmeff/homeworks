@@ -63,5 +63,6 @@ class Simon
 end
 
 if __FILE__ == $PROGRAM_NAME
-game = Simon.new
-game.play
+  game = Simon.new
+  game.play
+end
