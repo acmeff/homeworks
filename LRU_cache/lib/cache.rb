@@ -36,3 +36,6 @@ class LRUCache
   end
 
 end
+
+cache = LRUCache.new(2)
+p cache.add("something")
