@@ -66,6 +66,38 @@
       </ol>
     </section>
 
+    <section>
+      <form method="post" action="/reviews">
+        <label for="reviewer" >Reviewer Name</label>
+        <input id="reviewer" type="text"/>
+
+        <label for="rating">Rating</label>
+        <input id="rating1" type="radio" value="1" name="rate" checked />
+        <label for='rating1'>1</label>
+        <input id="rating2" type="radio" value="2" name="rate"/>
+        <label for='rating2'>2</label>
+        <input id="rating3" type="radio" value="3" name="rate"/>
+        <label for='rating3'>3</label>
+        <input id="rating4" type="radio" value="4" name="rate"/>
+        <label for='rating4'>4</label>
+        <input id="rating5" type="radio" value="5" name="rate"/>
+        <label for'rating5'>5</label>
+
+        <label for="cooking expertise">Cooking Expertise</label>
+        <select id="cooking expertise">
+          <option disabled selected value="Select Cooking Expertise">SELECT COOKING EXPERTISE</option>
+          <option value="Sometimes Cook">Sometimes Cook</option>
+          <option value="Cook Everyday">Cook Everyday</option>
+          <option value="Cooking is a hobby">Cooking is a hobby</option>
+          <option value="Professional Chef">Professional Chef</option>
+        </select>
+
+        <label><textarea name='review'></textarea></label>
+
+        <input type="submit" value="Submit Review" />
+      </form>
+    </section>
+
     <footer>
       <p>
         This recipe was originally thought up by <a href="http://allrecipes.com/recipe/77339/pumpkin-cheesecake-bars-from-eagle-brand/">Eagle Brand Sweetened Condensed Milk</a>
