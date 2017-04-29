@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Audrey Mefford Recipe</title>
+    <meta name='description' content="The best, easy pumpkin cheesecake recipe, perfect for holiday parties">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-12345678-9', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script type='text/javascript' src='./external_javascript_example.js'></script>
+    <!-- <link rel='stylesheet' href='./css_intro.css' type='text/css'/> -->
+    <link rel='stylesheet' href='./css_custom_reset.css' type='text/css'/>
+  </head>
+
+  <body>
+    <header>
+      <img src="https://www.appacademy.io/assets/shared/logos/aa-full-white-b025088b6f2d38b07911985400650eb002f96b64c2df0705ca27fae8636ceb29.svg" />
+      <nav>
+        <ul>
+          <li><a href="#description">Description</a></li>
+          <li><a href="#ingredients">Ingredients</a></li>
+          <li><a href="#directions">Directions</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <aside>
+      <h2 id='ingredients'>Ingredients</h2>
+
+        <ul class="ingredients-list">
+          <li>1 (16oz) package pound cake mix</li>
+          <li>3 eggs</li>
+          <li>2 tbsp butter or margarine, melted</li>
+          <li>4 tsp pumpkin pie spice</li>
+          <li>1 (8oz) package cream cheese, softened</li>
+          <li>1 (14oz) can sweetened condensed milk</li>
+          <li>1 (15oz) can pumpkin</li>
+          <li>1/2 tsp salt</li>
+          <li>1 cup chopped nuts (optional)</li>
+        </ul>
+    </aside>
+
+    <section>
+      <h1>Pumpkin Cheesecake Squares</h1>
+
+      <figure>
+        <img
+        src="https://s-media-cache-ak0.pinimg.com/736x/c1/59/25/c15925b768ebb89e503841ed458c7a73.jpg" alt="ready-to-eat pumpkin squares" />
+
+        <figcaption>
+          This deliciousness is what you're aiming for: a combination of  <a href="https://en.wikipedia.org/wiki/Pumpkin_pie">pumpkin pie</a> and <a href="https://en.wikipedia.org/wiki/Cheesecake">cheesecake</a>.
+        </figcaption>
+      </figure>
+
+      <h2 id='description'>Description</h2>
+      <p>
+        These bite-sized morsels of joy are my favorite winter dessert.
+
+      </p>
+
+      <h2 id='directions'>Directions</h2>
+      <ol>
+        <li>
+          Preheat oven to 350 degrees F. In large bowl, on low speed, combine cake mix, 1 egg, butter and 2 teaspoons pumpkin pie spice until crumbly. Press onto bottom of 15x10-inch jellyroll pan.
+        </li>
+        <li>
+          In large mixing bowl, beat cream cheese on low until fluffy. Gradually beat in sweetened condensed milk, then remaining 2 eggs, pumpkin, remaining 2 teaspoons pumpkin pie spice, and salt; mix well.
+        </li>
+        <li>
+          Pour over crust; sprinkle with nuts. Bake 30 to 35 minutes or until set. Cool. Chill; cut into bars. Store covered in refrigerator.
+        </li>
+      </ol>
+    </section>
+    <h3>Review me!</h3>
+    <section id='reviews'>
+      <form method="post" action="/reviews" id='review-form'>
+        <label for="name" >Name</label>
+        <input id="name" type="text" value=""/>
+
+        <label for="rating">Rating</label>
+        <input id="rating1" type="radio" value="1" name="rate" checked />
+        <label for='rating1'>1</label>
+        <input id="rating2" type="radio" value="2" name="rate"/>
+        <label for='rating2'>2</label>
+        <input id="rating3" type="radio" value="3" name="rate"/>
+        <label for='rating3'>3</label>
+        <input id="rating4" type="radio" value="4" name="rate"/>
+        <label for='rating4'>4</label>
+        <input id="rating5" type="radio" value="5" name="rate"/>
+        <label for'rating5'>5</label>
+
+        <label for="expertise">Cooking Expertise</label>
+        <select id="expertise" class='review'>
+          <option disabled selected value="Select Cooking Expertise">SELECT COOKING EXPERTISE</option>
+          <option value="Sometimes Cook">Sometimes Cook</option>
+          <option value="Cook Everyday">Cook Everyday</option>
+          <option value="Cooking is a hobby">Cooking is a hobby</option>
+          <option value="Professional Chef">Professional Chef</option>
+        </select>
+
+        <label><textarea name='review'></textarea></label>
+
+        <input type="submit" value="Submit Review" />
+      </form>
+    </section>
+
+    <footer>
+      <p>
+        This recipe was originally thought up by <a href="http://allrecipes.com/recipe/77339/pumpkin-cheesecake-bars-from-eagle-brand/">Eagle Brand Sweetened Condensed Milk</a>
+      </p>
+    </footer>
+
+  </body>
+</html>
