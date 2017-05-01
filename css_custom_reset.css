@@ -1,0 +1,20 @@
+body, header, nav, ul, li, aside, h1, h2, section, figure, p, label, h3, input, select, form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: whitesmoke;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
