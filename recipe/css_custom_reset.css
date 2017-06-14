@@ -1,0 +1,30 @@
+/*body, header, nav, ul, li, aside, h1, h2, section, figure, p, label, h3, input, select, form {*/
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  /*color: inherit;*/
+
+  background: black;
+}
+
+input[type="radio"], select,input[type="submit"]{
+  cursor: pointer;
+  outline: none;
+}
+
+input:last-child{
+  background-color: blue;
+
+}
+input:last-child:hover{
+  -webkit-filter: brightness(90%);
+}
+
+.directions li:nth-of-type(2n) {
+  background-color: whitesmoke;
+}
