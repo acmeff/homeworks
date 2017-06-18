@@ -87,7 +87,7 @@ Your `#in_order_traversal` method should return an array that contains the data 
 
 ## What Our Tree Is and Isn't
 
-Great job! You've built a basic BST. This structure has all the features of a binary search tree, but it's important to know what this tree isn't: it is *not* a self-balancing tree. That's important, because we have no safeguard to ensure that our time complexities remain logarithmic for `#find`, `#insert`, and `#delete`. After phase 2, as a bonus, you can try to create a self-balancing tree and implement the rebalacing algorithm.
+Great job! You've built a basic BST. This structure has all the features of a binary search tree, but it's important to know what this tree isn't: it is *not* a self-balancing tree. That's important, because we have no safeguard to ensure that our time complexities remain logarithmic for `#find`, `#insert`, and `#delete`. After phase 2, as a bonus, you can try to create a self-balancing tree and implement the rebalancing algorithm.
 
 Before you explore the world of AVL/self-balancing trees, go on to use your tree for some interview-style questions. It's more important that you do Phase 2 than the bonus, because phase 2 is similar to the kinds of exercises you may be expected to do on an actual interview. (No a/A student has ever been asked to implement a rebalancing algorithm or an AVL tree from scratch.  No one.)
 
