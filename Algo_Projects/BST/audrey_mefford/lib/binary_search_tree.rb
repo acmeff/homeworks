@@ -31,7 +31,7 @@ class BinarySearchTree
 
     if tree_node.value == value
       return tree_node
-    elsif value <= tree_node.value
+    elsif value < tree_node.value
       find(value, tree_node.left)
     else
       find(value, tree_node.right)
