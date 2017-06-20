@@ -20,11 +20,9 @@ def install_order(arr)
   end
 
   arr.each do |tuple|
-    Edge.new(vertices[tuple[0]-1], vertices[tuple[1]-1])
+    Edge.new(vertices[tuple[1]-1], vertices[tuple[0]-1])
   end
 
   order = topological_sort(vertices)
-
-  result = []
-
+  order.map {|v| v.value}
 end
